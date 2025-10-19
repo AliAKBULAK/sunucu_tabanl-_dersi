@@ -1,0 +1,24 @@
+{
+  "name": "sunucu_tabanl-_dersi",
+  "version": "1.0.0",
+  "description": "sunucu tabanlı programalama dersi2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliAKBULAK/sunucu_tabanl-_dersi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AliAKBULAK/sunucu_tabanl-_dersi/issues"
+  },
+  "homepage": "https://github.com/AliAKBULAK/sunucu_tabanl-_dersi#readme",
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
