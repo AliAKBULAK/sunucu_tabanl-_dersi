@@ -18,3 +18,4 @@ export default class UserService {
 }
 //CRUD: Create, Read, Update, Delete
 //insert, select, update, delete
+console.log("User Service Yüklendi")
