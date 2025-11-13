@@ -1,18 +1,20 @@
-export default class UserService{
-//add fonksiyonu yeni bir user eklemek için
-//list fonksiyonu ekliyeceğiz
-//getbyid fonksiyonu belirli idye göre user getirme
+export default class UserService {
+    //add fonksiyonu yeni bir user eklemek için
+    //list fonksiyonu ekliyeceğiz
+    //getbyid fonksiyonu belirli idye göre user getirme
 
-constructor(){
-    this.user=[]
+    constructor() {
+        this.users = []
+    }
+    add(user) {
+        this.users.push(user)
+    }
+    list() {
+        return this.users
+    }
+    getByid(){
+        return this.user.find(u => u.id === id)
 }
-add(user){
-    this.users.push(user)
 }
-list(){
-    return this.users
-}
-getByid({
-    return this.user.find(u=>u.id===id)
-})
-}
+//CRUD: Create, Read, Update, Delete
+//insert, select, update, delete
