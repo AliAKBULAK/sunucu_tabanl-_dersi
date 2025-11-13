@@ -121,7 +121,7 @@ addToCartNew(urunler[0]) */
 //console.log(bolgeler[2])
 //let [urun_adi,adet,fiyat]=["Limon",3,20]
 
-//console.log(urun_adi)
+//console.log(urun_adi)  
 
  
 let [elma,armut,limon]=[
